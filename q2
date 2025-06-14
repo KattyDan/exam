@@ -5,7 +5,7 @@ def wrapper(*args, **kwargs): #замер времени
     result = func(*args, **kwargs)
     end = time.time()
     print(f" Время выполнения: {end - start:.4f} секунд")
-            return results
+            return result
             return wrapper
             
              @timer
