@@ -1,0 +1,18 @@
+class MyClass
+ def__str__(): #метод
+ return f'MyClass with value {self.value}'
+
+...
+
+class MyClass:
+  def __len__(self):
+      return len(self.value)
+...
+
+class Vector:
+def __init__(self, x, y):
+self.x = x
+self.y = y
+
+def __add__(self, other):
+return Vector (self.x + other.x, self.y + other.y)
